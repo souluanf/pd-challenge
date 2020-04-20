@@ -148,7 +148,7 @@ if ENVIRONMENT == 'local':
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'pdtest',
-            'USER': 'pdtest@pstgrs-srv',
+            'USER': 'pdtest',
             'PASSWORD': 'pdtest1234',
             'HOST': 'pstgrs-srv.postgres.database.azure.com',
             'PORT': '5432',
@@ -356,7 +356,7 @@ SWAGGER_SETTINGS = {
     }
 }
 
-# Verifica se existe um local settings
+
 try:
     from .settings_local import *
 except ImportError:

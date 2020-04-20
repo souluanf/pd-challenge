@@ -10,7 +10,11 @@
 </a>
 
 <a href="https://www.django-rest-framework.org/" target="_blank">
-  <img src="https://img.shields.io/badge/api-Django--Rest--Framework-brightgreen" alt="Django Rest Framework"/>
+  <img src="https://img.shields.io/badge/api-DRF-brightgreen" alt="Django Rest Framework"/>
+</a>
+
+<a href="https://travis-ci.com/" target="_blank">
+  <img src="https://img.shields.io/badge/ci-Travis-brightgreen" alt="Travis CI"/>
 </a>
 
 <a href="https://www.djangoproject.com" target="_blank">
@@ -19,10 +23,6 @@
 
 <a href="https://www.docker.com/" target="_blank">
   <img src="https://img.shields.io/badge/deploy-Docker|Heroku-brightgreen" alt="Docker"/>
-</a>
-
-<a href="https://www.postgresql.org/" target="_blank">
-  <img src="https://img.shields.io/badge/database-PostgreSQL-brightgreen" alt="PostgreSQL"/>
 </a>
 
 <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">
@@ -49,27 +49,62 @@
 
 ## Local execution
 
-### Run using Docker
+### 1 - Run using Docker
 <pre>
 $ docker run -p 8030:8030 -d --name pdtest-web souluanf/pdchallenge:1.0
 </pre>
-
 Point your browser to localhost:8030
 
-### Without using the docker
-
-##### Getting the code
+### 2 -  Without using the docker
+#### Getting the code
 
 ```
-$ git clone git clone https://github.com/souluanf/pland-challenge.githttps://github.com/souluanf/pdchallenge.git
+$ git clone https://github.com/souluanf/pland-challenge.git
 ```
+#### Database configuration:
+
+Install PostgreSQL on Linux:
+<pre>
+<code> $ sudo apt-get update </code>
+<code> $ sudo apt-get install postgresql postgresql-contrib</code></pre>
+
+Now we go create a user and database:
+<pre>
+<code> $ sudo -i -u postgres psql</code>
+<code> $ CREATE ROLE pdtest WITH LOGIN NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;</code>
+<code> $ ALTER ROLE pdtest ENCRYPTED PASSWORD 'pdtest1234';</code>
+<code> $ CREATE DATABASE pdtest;</code>
+<code> $ GRANT ALL ON DATABASE pdtest TO pdtest;</code>
+</pre>
+
 Create a virtual environment with your favorite management system (conda, pyenv, virtualenv, etc);
 
 Activate the created environment and install the requirements:
 <pre><code> $ pip install -r requirements.txt </code></pre>
+
 Run the server with the following command:
+
 <pre><code> $ python manager.py runserver </code></pre>
+Now is ready!
+
 Then point your browser to localhost:8000
+
+###  Default Credentials
+
+<table>
+    <thead>
+        <tr class="table100-head">
+            <th class="column1">USER</th>
+            <th class="column2">PASSWORD</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="column1">test</td>
+                <td class="column2">pdtest1234</td>
+            </tr>
+    </tbody>
+</table>
 
 
 ###  Challenge Description
@@ -109,13 +144,17 @@ A place must have the following fields:
 - Programming good practices
 - VCS practices
 
-## Description of the proposed solution
+### Description of the proposed solution
 The application is being developed in python / django, on the back-end (API REST) ​​and on the front-end, containing 1 apps (place). The API can only be used after obtaining the token, with the exception of the customer's registration..
 
 ### Front-end
 All resources will be made available on the backend through the REST API. A frontend was developed just for this documentation.
 
-## Development Environment
+
+### Coverage
+Due to the short time, it was only possible to perform a few tests in order to demonstrate the technique. The package used for the tests was pytest.
+
+### Development Environment
 
 
 <table>
