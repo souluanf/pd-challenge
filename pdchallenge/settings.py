@@ -150,7 +150,7 @@ if ENVIRONMENT == 'local':
             'NAME': 'pdtest',
             'USER': 'pdtest',
             'PASSWORD': 'pdtest1234',
-            'HOST': 'pstgrs-srv.postgres.database.azure.com',
+            'HOST': 'localhost',
             'PORT': '5432',
         },
     }
@@ -164,11 +164,9 @@ else:
         }
 
     }
-    #FORÇAR HTTPS
+    # FORÇAR HTTPS
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     SECURE_SSL_REDIRECT = True
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -353,7 +351,6 @@ SWAGGER_SETTINGS = {
         }
     }
 }
-
 
 try:
     from .settings_local import *
