@@ -5,15 +5,15 @@
 
 <h3>Backend Developer Challenge</h3>
 
-<a href="https://www.python.org/" target="_blank">
+<a href="https://www.python.org" target="_blank">
   <img src="https://img.shields.io/badge/devel-Python-brightgreen" alt="Python"/>
 </a>
 
-<a href="https://www.django-rest-framework.org/" target="_blank">
+<a href="https://www.django-rest-framework.org" target="_blank">
   <img src="https://img.shields.io/badge/api-DRF-brightgreen" alt="Django Rest Framework"/>
 </a>
 
-<a href="https://travis-ci.com/" target="_blank">
+<a href="https://travis-ci.com" target="_blank">
   <img src="https://img.shields.io/badge/ci-Travis-brightgreen" alt="Travis CI"/>
 </a>
 
@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/main--framework-Django-brightgreen" alt="Django"/>
 </a>
 
-<a href="https://www.docker.com/" target="_blank">
+<a href="https://www.docker.com" target="_blank">
   <img src="https://img.shields.io/badge/deploy-Docker|Heroku-brightgreen" alt="Docker"/>
 </a>
 
@@ -29,7 +29,7 @@
   <img src="https://img.shields.io/badge/venv-Conda-brightgreen" alt="Conda"/>
 </a>
 
-<a href="https://docs.pytest.org/en/latest/" target="_blank">
+<a href="https://docs.pytest.org/en/latest" target="_blank">
   <img src="https://img.shields.io/badge/coverage-PyTest-brightgreen" alt="PyTest"/>
 </a>
 
