@@ -9,12 +9,12 @@
   <img src="https://img.shields.io/badge/devel-Python-brightgreen" alt="Python"/>
 </a>
 
-<a href="https://www.django-rest-framework.org" target="_blank">
-  <img src="https://img.shields.io/badge/api-DRF-brightgreen" alt="Django Rest Framework"/>
-</a>
-
 <a href="https://travis-ci.com" target="_blank">
   <img src="https://img.shields.io/badge/ci-Travis-brightgreen" alt="Travis CI"/>
+</a>
+
+<a href="https://www.django-rest-framework.org" target="_blank">
+  <img src="https://img.shields.io/badge/api-DRF-brightgreen" alt="DRF"/>
 </a>
 
 <a href="https://www.djangoproject.com" target="_blank">
