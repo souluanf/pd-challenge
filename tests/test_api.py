@@ -13,8 +13,8 @@ class TestApiDrf(TestCase):
     def setUpTestData(cls):
         cls.password = '123'
         cls.user = User.objects.create_user(
-            'test',
-            'teste@teste.com',
+            'testeapi',
+            'testeapi@testeapi.com',
             cls.password,
         )
         cls.client = APIClient()
