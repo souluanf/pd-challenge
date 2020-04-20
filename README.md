@@ -40,12 +40,11 @@
 </div>
 
 ## TL;DR
-##### Application Front End: https://cutt.ly/pdtest-frontend
+##### Front End Application: https://cutt.ly/pdtest-frontend
 ##### API Postman Documentation: https://cutt.ly/pdtest-postman
 ##### Continuous Integration Tests: https://cutt.ly/pdtest-travis
 ##### Github Repository: https://cutt.ly/pdtest-github
 ##### Docker Repository: https://cutt.ly/pdtest-docker
-##### Application hosted in http://www.heroku.com.
 
 ## Local execution
 
