@@ -40,12 +40,12 @@
 </div>
 
 ## TL;DR
-#### Application Front End: https://cutt.ly/pdtest-frontend
-#### API Postman Documentation: https://cutt.ly/pdtest-postman
-#### Continuous Integration Tests: https://cutt.ly/pdtest-travis
-#### Github Repository: https://cutt.ly/pdtest-github
-#### Docker Repository: https://cutt.ly/pdtest-docker
-#### Application hosted in http://www.heroku.com.
+##### Application Front End: https://cutt.ly/pdtest-frontend
+##### API Postman Documentation: https://cutt.ly/pdtest-postman
+##### Continuous Integration Tests: https://cutt.ly/pdtest-travis
+##### Github Repository: https://cutt.ly/pdtest-github
+##### Docker Repository: https://cutt.ly/pdtest-docker
+##### Application hosted in http://www.heroku.com.
 
 ## Local execution
 
@@ -54,20 +54,22 @@
 $ docker run -p 8030:8030 -d --name pdtest-web souluanf/pdchallenge:1.0
 </pre>
 
-- Point your browser to localhost:8030
+Point your browser to localhost:8030
 
 ### Without using the docker
+
 ##### Getting the code
 
 ```
 $ git clone git clone https://github.com/souluanf/pland-challenge.githttps://github.com/souluanf/pdchallenge.git
 ```
-- Create a virtual environment with your favorite management system (conda, pyenv, virtualenv, etc);
-- Activate the created environment and install the requirements:
+Create a virtual environment with your favorite management system (conda, pyenv, virtualenv, etc);
+
+Activate the created environment and install the requirements:
 <pre><code> $ pip install -r requirements.txt </code></pre>
-- Run the server with the following command:
+Run the server with the following command:
 <pre><code> $ python manager.py runserver </code></pre>
-- Then point your browser to localhost:8000
+Then point your browser to localhost:8000
 
 
 ###  Challenge Description
