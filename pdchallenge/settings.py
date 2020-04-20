@@ -65,7 +65,6 @@ CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'pdchallenge.urls'
 
-
 # CONFIG MARKDOWN
 MARKDOWNIFY_STRIP = False
 MARKDOWNIFY_MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.extra', ]
@@ -149,9 +148,9 @@ if ENVIRONMENT == 'local':
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'pdtest',
-            'USER': 'pdtest',
-            'PASSWORD': '1234',
-            'HOST': 'localhost',
+            'USER': 'pdtest@pstgrs-srv',
+            'PASSWORD': 'pdtest1234',
+            'HOST': 'pstgrs-srv.postgres.database.azure.com',
             'PORT': '5432',
         },
     }
@@ -168,7 +167,6 @@ else:
     # FORÇAR HTTPS
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     SECURE_SSL_REDIRECT = True
-
 
 # print(DATABASES)
 
