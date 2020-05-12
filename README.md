@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://www.pland.com.br" target="_blank">
-    <img src="https://i.imgur.com/oUJQvti.png" height="100px" alt="PlanD"/>
+    <img src="https://pland.com.br/img/PlanD_Logo_Posit_RGB.png" height="100px" alt="PlanD"/>
 </a>
 
 <h3>Backend Developer Challenge</h3>

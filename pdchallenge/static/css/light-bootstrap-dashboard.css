@@ -305,7 +305,7 @@ input:focus {
 }
 
 .page-header .filter:after {
-    background: transparent linear-gradient(to bottom, #9368e9 0%, #943bea 100%) repeat scroll 0 0/150% 150%;
+    background: transparent linear-gradient(to bottom, #78767b 0%, #78767b 100%) repeat scroll 0 0/150% 150%;
     content: "";
     display: block;
     height: 100%;
@@ -604,13 +604,13 @@ body>.navbar-collapse:before {
 
 .sidebar:after,
 body>.navbar-collapse:after {
-    background: #9368E9;
-    background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-    background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
+    background: #78767b;
+    background: -moz-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #78767b), color-stop(100%, #78767b));
+    background: -webkit-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -o-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -ms-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: linear-gradient(to bottom, #78767b 0%, #78767b 100%);
     background-size: 150% 150%;
     z-index: 3;
     opacity: 1;
@@ -697,13 +697,13 @@ body>.navbar-collapse[data-color="red"]:after {
 
 .sidebar[data-color="purple"]:after,
 body>.navbar-collapse[data-color="purple"]:after {
-    background: #9368E9;
-    background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-    background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
+    background: #78767b;
+    background: -moz-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #78767b), color-stop(100%, #78767b));
+    background: -webkit-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -o-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: -ms-linear-gradient(top, #78767b 0%, #78767b 100%);
+    background: linear-gradient(to bottom, #78767b 0%, #78767b 100%);
     background-size: 150% 150%;
 }
 
@@ -2125,12 +2125,7 @@ fieldset[disabled] .form-control {
     font-size: 16px;
 }
 
-.navbar.fixed {
-    width: calc(100% - $sidebar-width);
-    right: 0;
-    left: auto;
-    border-radius: 0;
-}
+
 
 .navbar .nc-icon {
     font-weight: 700;
@@ -3090,136 +3085,6 @@ Copyright (c) 2015 Daniel Eden
     display: flex;
 }
 
-.ct-label.ct-horizontal.ct-start {
-    -webkit-box-align: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: start;
-}
-
-.ct-label.ct-horizontal.ct-end {
-    -webkit-box-align: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: start;
-}
-
-.ct-label.ct-vertical.ct-start {
-    -webkit-box-align: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: flex-end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: flex-end;
-    justify-content: flex-end;
-    text-align: right;
-    text-anchor: end;
-}
-
-.ct-label.ct-vertical.ct-end {
-    -webkit-box-align: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: start;
-}
-
-.ct-chart-bar .ct-label.ct-horizontal.ct-start {
-    -webkit-box-align: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    text-anchor: start;
-}
-
-.ct-chart-bar .ct-label.ct-horizontal.ct-end {
-    -webkit-box-align: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    text-anchor: start;
-}
-
-.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start {
-    -webkit-box-align: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: start;
-}
-
-.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end {
-    -webkit-box-align: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: start;
-}
-
-.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: flex-end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: flex-end;
-    justify-content: flex-end;
-    text-align: right;
-    text-anchor: end;
-}
-
-.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-end {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    text-anchor: end;
-}
-
 .ct-grid {
     stroke: rgba(0, 0, 0, 0.2);
     stroke-width: 1px;
@@ -3291,12 +3156,12 @@ Copyright (c) 2015 Daniel Eden
 .ct-series-d .ct-line,
 .ct-series-d .ct-bar,
 .ct-series-d .ct-slice-donut {
-    stroke: #9368E9;
+    stroke: #78767b;
 }
 
 .ct-series-d .ct-slice-pie,
 .ct-series-d .ct-area {
-    fill: #9368E9;
+    fill: #78767b;
 }
 
 .ct-series-e .ct-point,
