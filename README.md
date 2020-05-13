@@ -58,7 +58,7 @@ Point your browser to localhost:8030
 #### Getting the code
 
 ```
-$ git clone https://github.com/souluanf/pland-challenge.git
+$ git clone https://github.com/souluanf/pdchallenge.git
 ```
 #### Database configuration:
 
